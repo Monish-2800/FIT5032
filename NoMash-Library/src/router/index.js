@@ -6,6 +6,7 @@ import FirebaseRegisterView from '@/views/FirebaseRegisterView.vue'
 import AdminDashboard from '@/views/AdminDashboard.vue'
 import LibrarianDashboard from '@/views/LibrarianDashboard.vue'
 import UserDashboard from '@/views/UserDashboard.vue'
+import AddBookView from '@/views/AddBookView.vue'
 
 const routes = [
   {
@@ -30,7 +31,12 @@ const routes = [
   },
   { path: '/admin-dashboard', component: AdminDashboard },
   { path: '/librarian-dashboard', component: LibrarianDashboard },
-  { path: '/user-dashboard', component: UserDashboard }
+  { path: '/user-dashboard', component: UserDashboard },
+  {
+    path: '/addbook',
+    name: 'AddBook',
+    component: AddBookView
+  }
 ]
 
 const router = createRouter({
