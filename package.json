@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "bootstrap": "^5.3.7"
+    "bootstrap": "^5.3.7",
+    "firebase": "^12.3.0"
   },
   "devDependencies": {
     "vite-plugin-vue-devtools": "^8.0.1"
