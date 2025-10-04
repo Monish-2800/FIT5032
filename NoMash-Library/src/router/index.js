@@ -7,6 +7,10 @@ import AdminDashboard from '@/views/AdminDashboard.vue'
 import LibrarianDashboard from '@/views/LibrarianDashboard.vue'
 import UserDashboard from '@/views/UserDashboard.vue'
 import AddBookView from '@/views/AddBookView.vue'
+import GetBookCountView from '@/views/GetBookCountView.vue'
+import WeatherView from '@/views/WeatherView.vue'
+import CountBookAPI from '@/views/CountBookAPI.vue'
+import BookAPI from '@/views/GetAllBookAPI.vue'
 
 const routes = [
   {
@@ -36,6 +40,26 @@ const routes = [
     path: '/addbook',
     name: 'AddBook',
     component: AddBookView
+  },
+  {
+    path: '/GetBookCount',
+    name: 'GetBookCount',
+    component: GetBookCountView
+  },
+  {
+    path: '/WeatherCheck',
+    name: 'WeatherCheck',
+    component: WeatherView
+  },
+  {
+    path: '/CountAPI',
+    name: 'CountAPI',
+    component: CountBookAPI
+  },
+  {
+    path: '/BookAPI',
+    name: 'BookAPI',
+    component: BookAPI
   }
 ]
 

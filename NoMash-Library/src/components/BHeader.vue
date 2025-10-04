@@ -19,6 +19,18 @@
         <li class="nav-item">
           <router-link to="/FireRegister" class="nav-link" active-class="active">Firebase SignIn</router-link>
         </li>
+        <li class="nav-item">
+          <router-link to="/GetBookCount" class="nav-link" active-class="active">Get Book Count</router-link>
+        </li>
+        <li class="nav-item">
+          <router-link to="/WeatherCheck" class="nav-link" active-class="active">Get Weather</router-link>
+        </li>
+        <li class="nav-item">
+          <router-link to="/CountAPI" class="nav-link" active-class="active">Count Books</router-link>
+        </li>
+        <li class="nav-item">
+          <router-link to="/BookAPI" class="nav-link" active-class="active">Get All Books</router-link>
+        </li>
       </ul>
     </header>
   </div>
