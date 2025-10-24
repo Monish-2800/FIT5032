@@ -17,7 +17,14 @@ export default defineConfig({
   },
   build: {
     outDir: 'dist'
-  }
+  },
+  optimizeDeps: {
+    include: [
+      "firebase/app",
+      "firebase/auth",
+      "firebase/firestore"
+    ],
+  },
 })
 
 
