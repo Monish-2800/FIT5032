@@ -12,7 +12,7 @@ import { ref } from "vue"
 import { useRouter } from "vue-router"
 import { signInWithEmailAndPassword } from "firebase/auth"
 import { doc, getDoc } from "firebase/firestore"
-import { auth, db } from "../firebase/init"
+import { auth, db } from "@/firebase/init"
 
 const email = ref("")
 const password = ref("")
